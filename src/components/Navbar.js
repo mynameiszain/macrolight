@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImage from '../assets/macrolighttrading.jpg';
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
         <a href="/" id="w-node-_79c2abdf-351e-13ab-d6dc-1455d66aafc8-d66aafc6" aria-current="page" className="logolink w-nav-brand w--current" aria-label="home">
           <img loading="lazy" height="320"
             alt=""
-            src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/65af89467f65dce9f6101b60_seq-logo-web.svg"
+            src={logoImage}
             className="n-logo" />
         </a>
         <div id="w-node-_79c2abdf-351e-13ab-d6dc-1455d66aafcc-d66aafc6" className="menu-button w-nav-button"
@@ -58,7 +59,7 @@ const Navbar = () => {
 
       </div>
         <a id="w-node-_1ba85524-3d57-8c1a-8bdc-2c3cfab2780a-d66aafc6" href="https://app.getsequence.io/login" className="link">Log in</a>
-        <a href="https://app.getsequence.io/signup" id="w-node-_79c2abdf-351e-13ab-d6dc-1455d66aafca-d66aafc6" className="n-button topmenu w-button">Sign up</a>
+        <a href="https://app.getsequence.io/signup" id="w-node-_79c2abdf-351e-13ab-d6dc-1455d66aafca-d66aafc6" className="n-button topmenu w-button" style={{ backgroundColor: '#006ECB' }}>Sign up</a>
         <div id="w-node-_79c2abdf-351e-13ab-d6dc-1455d66aafdf-d66aafc6" className="n-navbarmenu">
           <a href="/howitworks" className="n-navlink w-nav-link">How does it work</a>
           <a href="/about" className="n-navlink w-nav-link">About</a>

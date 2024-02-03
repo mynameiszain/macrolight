@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Actionable = () => {
   return (
     <main className="n-section nooverflow">
-      <div className="n-container innerpadding-m w-container">
-        <div className="w-layout-grid contentgrid fixedheight-l">
+      <div className="n-container innerpadding-m w-container padding3height">
+        <div className="w-layout-grid contentgrid padding3">
           <div id="w-node-_3db94ced-75e5-f366-891f-e99ac395c4bb-a00cfc93" className="n-contentwrapper rightpadding main">
             <div className="n-badgewrapper purple">
               <div className="n-badge purple"> Actionable</div>
@@ -38,7 +40,7 @@ const Actionable = () => {
               <div className="route-bottom"></div>
             </div>
           </div>
-          <div id="w-node-_3db94ced-75e5-f366-891f-e99ac395c4d2-a00cfc93" className="n-imagewrapper aligncenter"><img
+          <div id="w-node-_3db94ced-75e5-f366-891f-e99ac395c4d2-a00cfc93" className="n-imagewrapper aligncenter" data-aos="fade-left"><img
             src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/62f399cec69d4aa3eab88f5e_BasicDotGridGraphic.svg"
             loading="lazy" width="847" alt="" className="dotsgraphic repositiontop" /><img className="n-imagebase shadow _3rd"
             src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/658bf07e2e79f16a0652834d_62fe468387e7692dffcfc164_RuleActivated-graphic.png"

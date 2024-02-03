@@ -3,8 +3,8 @@ import React from 'react';
 const Community = () => {
   return (
     <main className="n-section nooverflow community">
-      <div className="n-container innerpadding-m community w-container">
-        <div className="w-layout-grid contentgrid fixedheight-l community">
+      <div className="n-container innerpadding-m community w-container cm1">
+        <div className="w-layout-grid contentgrid community cm2">
           <div className="n-contentwrapper rightpadding main" id="w-node-_2780022a-d681-8564-36c4-a5b95c37a5ea-a00cfc93">
             <div className="n-routesholder"></div>
             <div className="n-badgewrapper">
@@ -19,7 +19,7 @@ const Community = () => {
               </p>
             </div>
             <img src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/62efcebd06d848cc3cc6616d_RoutesGraphic.svg" loading="lazy" alt="" height="255" className="n-routesgraphic" />
-            <a href="https://discord.gg/9vM7RDFTUv" target="_blank" className="n-button event w-button">
+            <a href="https://discord.gg/9vM7RDFTUv" target="_blank" className="n-button event w-button" style={{ backgroundColor: '#006ECB' }}>
               Join now
             </a>
           </div>

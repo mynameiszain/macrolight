@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Smart = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Set the duration of the animation
+      once: true, // Set whether the animation should occur only once
+    });
+  }, []);
   return (
     <main className="n-section nooverflow">
-      <div className="n-container innerpadding-m w-container">
-        <div className="w-layout-grid contentgrid fixedheight-l">
+      <div className="n-container innerpadding-m w-container padding2height">
+        <div className="w-layout-grid contentgrid padding2">
           <div id="w-node-_9d092125-3227-9d43-4490-a40245f3d2f8-a00cfc93" className="n-contentwrapper rightpadding main">
             <div className="n-badgewrapper green">
               <div className="n-badge green"> Smart</div>
@@ -45,7 +54,7 @@ const Smart = () => {
               <div className="route-bottom"></div>
             </div>
           </div>
-          <div id="w-node-_9d092125-3227-9d43-4490-a40245f3d312-a00cfc93" className="n-imagewrapper">
+          <div id="w-node-_9d092125-3227-9d43-4490-a40245f3d312-a00cfc93" className="n-imagewrapper"   data-aos="fade-left">
             <img
               src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/62f399cec69d4aa3eab88f5e_BasicDotGridGraphic.svg"
               loading="lazy" alt="" className="dotsgraphic repositionright"
@@ -57,6 +66,7 @@ const Smart = () => {
                 transformStyle: 'preserve-3d',
               }}
               className="conditionalbox"
+              
             >
               <div className="w-form">
                 <form

@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Visualize = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Set the duration of the animation
+      once: true, // Set whether the animation should occur only once
+    });
+  }, []);
   return (
     <main className="n-section nooverflow">
-      <div className="n-container innerpadding-m w-container">
-        <div className="w-layout-grid contentgrid fixedheight-l">
+      <div className="n-container innerpadding-m w-container padding1">
+        <div className="w-layout-grid contentgrid">
           <div id="w-node-e36bf388-8bd7-c2de-ab34-a6ecf6275708-a00cfc93" className="n-contentwrapper rightpadding main">
             <div className="n-routesholder">
               <div className="route-top"></div>
@@ -54,12 +62,12 @@ const Visualize = () => {
               loading="lazy" alt="" height="255" className="n-routesgraphic"
             />
           </div>
-          <div id="w-node-e36bf388-8bd7-c2de-ab34-a6ecf6275722-a00cfc93" className="n-imagewrapper">
+          <div id="w-node-e36bf388-8bd7-c2de-ab34-a6ecf6275722-a00cfc93" className="n-imagewrapper"  data-aos="fade-left">
             <img
               src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/62f399cec69d4aa3eab88f5e_BasicDotGridGraphic.svg"
               loading="lazy" alt="" width="938" className="dotsgraphic"
             />
-            <img
+            <img 
               className="n-imagebase shadow _1st"
               src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/658bf07079833dcb6d7b6df2_63147c263c13ed38d9e5e1ef_Image-Visualize-map.png"
               width="666" alt=""
@@ -68,6 +76,7 @@ const Visualize = () => {
                 transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
                 transformStyle: 'preserve-3d',
               }}
+              
               sizes="(max-width: 479px) 100vw, 666px"
               data-w-id="e36bf388-8bd7-c2de-ab34-a6ecf6275724"
               loading="lazy"

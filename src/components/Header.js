@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header id="FormHero" className="n-section hero main-hero">
+    <header id="FormHero" className="n-section hero main-hero paddingg">
       <img
         src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/62f399cec69d4aa3eab88f5e_BasicDotGridGraphic.svg"
         loading="lazy" alt="" className="image-8"
@@ -14,7 +14,7 @@ const Header = () => {
               <h1 className="n-heading01">Supercharge Your Money with the <span className="gradientblue">Financial Router</span></h1>
               <p className="n-paragraph01 mobilecentered medium">Visualize your money flow, set smart routing rules and control it all from one single, powerful platform.</p>
             </header>
-            <a href="https://app.getsequence.io/signup" className="n-button w-button">Sign up</a>
+            <a href="#" className="n-button w-button" style={{ backgroundColor: '#006ECB' }}>Sign up</a>
           </div>
           <div id="w-node-f5140045-64d5-01d1-8fe4-85d5735bfc36-a00cfc93" className="n-imagewrapper hero">
             <div

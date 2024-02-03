@@ -3,7 +3,7 @@ import React from 'react';
 const Connect = () => {
   return (
     <main className="n-section">
-      <div className="n-container innerpadding-m w-container">
+      <div className="n-container innerpadding-m w-container eh">
         <div className="w-layout-grid contentgrid">
           <div id="w-node-_3a4ccb7b-811f-d9c1-1774-8caab61bfd15-a00cfc93" className="basecard nobottompadding">
             <div id="w-node-_4f2a418c-2dd0-48dd-40c3-650ba7940e71-a00cfc93" className="n-contentwrapper aligncenter">

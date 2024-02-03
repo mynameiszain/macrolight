@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImagee from '../assets/macrolighttrading.jpg';
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="w-layout-grid n-footergrid">
           <div id="w-node-aa544811-11df-f601-4662-9accaa8c42d4-aa8c42d1" className="n-footerlogowrap">
             <img
-              src="https://assets-global.website-files.com/6286650c317fddfbb431b9c1/65af89467f65dce9f6101b60_seq-logo-web.svg"
+              src={logoImagee}
               loading="lazy" alt="Lance business Banking App for freelancers" width="168" className="logofooter"
             />
             <div id="w-node-aa544811-11df-f601-4662-9accaa8c42d6-aa8c42d1" className="n-footermarginleft"></div>

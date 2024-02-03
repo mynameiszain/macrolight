@@ -3,8 +3,8 @@ import React from 'react';
 const Stratergy = () => {
   return (
     <main className="n-section nooverflow">
-      <div className="n-container toppadding-l w-container">
-        <div className="w-layout-grid contentgrid fixedheight-l">
+      <div className="n-container toppadding-l w-container mt">
+        <div className="w-layout-grid contentgrid mg">
           <div id="w-node-_75ad875f-8e64-2514-0986-4e651fb23808-a00cfc93" className="n-contentwrapper">
             <div className="n-badgewrapper blue">
               <div className="n-badge blue"> Flexible</div>
